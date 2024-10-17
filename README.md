@@ -3,14 +3,40 @@ In this repo we will setup the Grafana-blackbox locally using Docker Compose.
 
 
 1. Run the following command.
+   * Firstly we cloned the repository frm the GitHub.
    ```
    git clone https://github.com/cmjagtap/Website-Monitoring.git
    ```
+   * Then we will see inside the repo and enter in the "Website-Monitoring" directory and from there we"ll go inside "blackbox_exporter-0.18.0.linux-amd64".
+     
+![image](https://github.com/user-attachments/assets/d4efd131-59f9-4c66-ad1d-bd5d801af885)
+
+   * Now run the command inside 
+
    ```
    ./blackbox_exporter --config.file=blackbox.yml &> output.log &
    ```
+![image](https://github.com/user-attachments/assets/c90334aa-0bd0-4347-9a82-50e969a779f5)
+
+ * Now we checked the port status with the following command and got that Port 9115 is open for blackbox.
+   ```
+   ss -tulnp
+   ```
    
+![image](https://github.com/user-attachments/assets/6c4f553a-5950-4b10-b659-3f999a6a8ae7)
+
+* Check the IP and hit on the browser with port 9115
+  ```
+  ip a
+  ```
+
+![image](https://github.com/user-attachments/assets/b2d4bdb5-165b-42c8-b036-b11c94fe007d)
+
+
+
 ---------------
+![image](https://github.com/user-attachments/assets/788940ed-9e8c-492c-a8ff-9d46ad805a49)
+
 ![blackbox](https://github.com/user-attachments/assets/8ac7feb7-4e3e-4779-9bfe-b6b6921ca570)
 
 ![Promethus](https://github.com/user-attachments/assets/1a6cc78c-a4cc-4df7-a51c-3293ae4c7e6e)
