@@ -1,8 +1,8 @@
 # Monitoring-grafana-blackbox
 ![image](https://github.com/user-attachments/assets/ce2141ef-d435-4302-878a-27e6a32c8c0b)
 
-In this repo we will setup the Grafana-blackbox locally using Docker Compose.
-
+* **Purpose:** In this repo we will setup the Grafana-blackbox locally using Docker Compose. And we"ll configure some URLs to monitor them on the Grafana dashbpard.
+* **Prerequisites:** Before starting we need to confirm that we have Ubuntu and GitHub.
 ----------------
 
 1. Run the following command.
