@@ -74,10 +74,13 @@ docker-compose up -d
 
 ![grafan-blackbox](https://github.com/user-attachments/assets/6988c6e8-8eed-42e9-80a7-3e8247e884b3)
 
-![Grafana-dashboard](https://github.com/user-attachments/assets/5c89ab28-9c5d-4a8d-aeb0-d00f306931ff)
+![image](https://github.com/user-attachments/assets/b0ffc259-cdd1-4ccb-af57-8cd3c5f61275)
+
 
 
 ---------------------
+
+![Grafana-dashboard](https://github.com/user-attachments/assets/5c89ab28-9c5d-4a8d-aeb0-d00f306931ff)
 
 
 ![Promethus](https://github.com/user-attachments/assets/1a6cc78c-a4cc-4df7-a51c-3293ae4c7e6e)
