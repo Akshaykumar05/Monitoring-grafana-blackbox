@@ -71,8 +71,20 @@ docker-compose up -d
 
 ![image](https://github.com/user-attachments/assets/5cd33562-550e-4474-9fce-b3473dd2ca79)
 
+* Configure the data source which is Prometheus.
+
+![Screenshot 2024-10-22 185813](https://github.com/user-attachments/assets/74e61dfa-911e-4ef6-9982-a1a4062ce068)
+
+
+* Import a new dashboard. Use Dashboard id 13659
+  
+![Screenshot 2024-10-22 162944](https://github.com/user-attachments/assets/1d4fe4d3-7087-429f-b3d6-1bcae862ab3b)
+
 
 ![grafan-blackbox](https://github.com/user-attachments/assets/6988c6e8-8eed-42e9-80a7-3e8247e884b3)
+
+![Screenshot 2024-10-22 173254](https://github.com/user-attachments/assets/7eadecb0-5ab3-408a-9a90-b07bac79f1d9)
+
 
 ![image](https://github.com/user-attachments/assets/b0ffc259-cdd1-4ccb-af57-8cd3c5f61275)
 
