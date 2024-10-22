@@ -51,14 +51,24 @@ Here’s why Grafana should be in your toolkit:
 ---------------
 ![image](https://github.com/user-attachments/assets/788940ed-9e8c-492c-a8ff-9d46ad805a49)
 
+* Now make up all the containers by running the command.
+```
+docker-compose up -d
+```
+![image](https://github.com/user-attachments/assets/58b1eb05-7b19-4f45-a504-4780e1c8d793)
 
+![image](https://github.com/user-attachments/assets/f9502341-7bc9-4a85-a43b-0e16f8e94625)
 
-![Promethus](https://github.com/user-attachments/assets/1a6cc78c-a4cc-4df7-a51c-3293ae4c7e6e)
+![image](https://github.com/user-attachments/assets/459ab1c9-3feb-4dba-922a-a250c8572576)
+
 
 ![grafan-blackbox](https://github.com/user-attachments/assets/6988c6e8-8eed-42e9-80a7-3e8247e884b3)
 
 ![Grafana-dashboard](https://github.com/user-attachments/assets/5c89ab28-9c5d-4a8d-aeb0-d00f306931ff)
+---------------------
 
+
+![Promethus](https://github.com/user-attachments/assets/1a6cc78c-a4cc-4df7-a51c-3293ae4c7e6e)
 
 
 
