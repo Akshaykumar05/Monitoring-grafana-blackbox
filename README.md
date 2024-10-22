@@ -57,14 +57,26 @@ docker-compose up -d
 ```
 ![image](https://github.com/user-attachments/assets/58b1eb05-7b19-4f45-a504-4780e1c8d793)
 
+* Open the url of Prometheus with (your system) IP and Port.
+  
+
+![image](https://github.com/user-attachments/assets/59f76294-2ed9-422d-99a8-dbf2bf2fbeca)
+
+
 ![image](https://github.com/user-attachments/assets/f9502341-7bc9-4a85-a43b-0e16f8e94625)
 
+* Use "admin" as user and the password for login.
+
 ![image](https://github.com/user-attachments/assets/459ab1c9-3feb-4dba-922a-a250c8572576)
+
+![image](https://github.com/user-attachments/assets/5cd33562-550e-4474-9fce-b3473dd2ca79)
 
 
 ![grafan-blackbox](https://github.com/user-attachments/assets/6988c6e8-8eed-42e9-80a7-3e8247e884b3)
 
 ![Grafana-dashboard](https://github.com/user-attachments/assets/5c89ab28-9c5d-4a8d-aeb0-d00f306931ff)
+
+
 ---------------------
 
 
