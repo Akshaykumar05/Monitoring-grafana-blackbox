@@ -2,7 +2,10 @@
 ![image](https://github.com/user-attachments/assets/ce2141ef-d435-4302-878a-27e6a32c8c0b)
 
 * **Purpose:** In this project we will setup the Grafana-blackbox locally using Docker Compose. And we"ll configure some URLs to monitor them on the Grafana dashbpard.
-* **Prerequisites:** Before starting we need to confirm that we have Ubuntu and GitHub.
+* **Prerequisites:**
+1. OS: Ubuntu
+2. Docker
+3. GitHub 
 ----------------
 ### Lets understand the basics of Grafana
 * In today's world of **DevOps** and **CloudComputing**, Grafana has emerged as a go-to tool for monitoring and observability. Whether you're tracking server performance, application logs, or business metrics, Grafana makes it easy to create beautiful, real-time dashboards that provide actionable insights.
@@ -81,21 +84,50 @@ docker-compose up -d
 ![Screenshot 2024-10-22 162944](https://github.com/user-attachments/assets/1d4fe4d3-7087-429f-b3d6-1bcae862ab3b)
 
 
-![grafan-blackbox](https://github.com/user-attachments/assets/6988c6e8-8eed-42e9-80a7-3e8247e884b3)
-
 ![Screenshot 2024-10-22 173254](https://github.com/user-attachments/assets/7eadecb0-5ab3-408a-9a90-b07bac79f1d9)
 
 
 ![image](https://github.com/user-attachments/assets/b0ffc259-cdd1-4ccb-af57-8cd3c5f61275)
 
+* Now let's check the URLs added for monitoring in the "prometheus.yml" file.
+
+![Screenshot 2024-10-23 120833](https://github.com/user-attachments/assets/62e34d36-7278-4bff-a6a5-74387c738858)
+
+```
+vim promethereus.yml
+```
+
+![Screenshot 2024-10-23 114804](https://github.com/user-attachments/assets/b610f7c8-e734-4c10-8ff8-0e7acacda533)
+
+* If we need to add more URL in the list to moniter then we have to add the domain name in the same file under "tragets" section. For example I'm adding a new URL.
+
+![Screenshot 2024-10-23 121836](https://github.com/user-attachments/assets/1123b82e-11d2-4727-b0d2-33fbf51b3311)
+
+* After adding the new URL, save the file and restart the prometheus container.
+
+```
+docker-compose restart prometheus
+```
+* Now refresh the Grafana dashboard page and the new URL will reflect in the list as shown in the snapshot.
+
+![Screenshot 2024-10-23 122426](https://github.com/user-attachments/assets/2c3d48b3-a703-44ac-936f-818babdcffb3)
+
+
+
+
+
 
 
 ---------------------
 
+* These are the other snapshots of different testing machine.
+
 ![Grafana-dashboard](https://github.com/user-attachments/assets/5c89ab28-9c5d-4a8d-aeb0-d00f306931ff)
 
-
 ![Promethus](https://github.com/user-attachments/assets/1a6cc78c-a4cc-4df7-a51c-3293ae4c7e6e)
+
+![grafan-blackbox](https://github.com/user-attachments/assets/6988c6e8-8eed-42e9-80a7-3e8247e884b3)
+
 
 
 
