@@ -119,6 +119,21 @@ docker-compose restart prometheus
 
 
 ---------------------
+---------------------
+
+### System Monitoring
+
+* Download Node Exporter
+
+```
+wget https://github.com/prometheus/node_exporter/releases/download/v1.6.1/node_exporter-1.6.1.linux-amd64.tar.gz
+tar xvfz node_exporter-1.6.1.linux-amd64.tar.gz
+cd node_exporter-1.6.1.linux-amd64
+./node_exporter &
+```
+
+![Screenshot 2024-10-23 181244](https://github.com/user-attachments/assets/1db0994a-9c27-4299-aa4f-07ca9c427b25)
+
 
 * These are the other snapshots of different testing machine.
 
