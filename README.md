@@ -122,6 +122,7 @@ docker-compose restart prometheus
 ---------------------
 
 ### System Monitoring
+* In this task we will configure our system for montoring using the same tool : Grafana, Prometheus and we will use Node Exportere instead of Blackbox Exportere (as we used in the application onitoring)
 
 * Download Node Exporter
 
@@ -131,6 +132,12 @@ tar xvfz node_exporter-1.6.1.linux-amd64.tar.gz
 cd node_exporter-1.6.1.linux-amd64
 ./node_exporter &
 ```
+* Check the default port of Node explorer which is 9100
+
+```
+ss -tulnp
+```
+![Screenshot 2024-10-23 125430](https://github.com/user-attachments/assets/f9abb180-4157-42e6-83f9-13584a2eaa2e)
 
 ![Screenshot 2024-10-23 181244](https://github.com/user-attachments/assets/1db0994a-9c27-4299-aa4f-07ca9c427b25)
 
