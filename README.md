@@ -150,6 +150,11 @@ ss -tulnp
 
 ![grafan-blackbox](https://github.com/user-attachments/assets/6988c6e8-8eed-42e9-80a7-3e8247e884b3)
 
+--------------------------
+
+### Error and trouble shooting
+* After updating the prometheus.yml file, I got the error of connection refused and showing no data on the Dashboard.
+![image](https://github.com/user-attachments/assets/c58ae4a9-79e3-48e1-8922-dc7a3903bb48)
 
 
 
